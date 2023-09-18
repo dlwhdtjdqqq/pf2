@@ -1,0 +1,95 @@
+footer {
+  
+  background-color: #333;
+  color:#9a9a9a;
+}
+footer .wrap {
+  width:1200px;
+  display:grid;
+  grid-template-columns:80% auto;
+  grid-template-rows:1fr 1fr 1fr;
+  row-gap:13px;
+}
+footer .btop{
+footer .btop{
+  font-size: 0;
+  width: 70px;
+  height: 70px;
+  display: block;
+  background-color: black;
+  position: fixed;
+  right: 60px;
+  bottom: 60px;
+  background-image: url(../img/arrow.svg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(-90deg);
+}
+}
+footer a{
+ color:#9a9a9a;
+}
+footer .wrap .fnb { 
+  grid-column:1 / span 2;
+}
+footer .wrap .fnb li {
+  
+}
+footer .wrap .fnb li a {
+  padding-right: 10px;
+  display: block;
+  line-height: 1.2;
+}
+footer .wrap .fnb li:nth-child(4) a{
+  color:#fff;
+}
+footer .wrap address {
+  line-height:1.5;
+  margin-bottom:20px;
+}
+footer .wrap address a {  
+  padding:0px 15px;
+}
+footer .wrap p {
+  
+}
+footer .wrap .copy {  
+  grid-row:2 / span 2;
+  grid-column:2 / span 1;
+  display:flex;
+}
+footer .wrap .copy .hide {
+  
+}
+footer .wrap .copy .corp {
+  
+}
+footer .wrap .copy .corp li {
+  
+}
+footer .wrap .copy .corp li a {
+  line-height:33px;
+  /*! position: relative; */
+}
+footer .wrap .copy .corp li a::before{
+  content:"";
+  width:50px;
+  height:30px;
+  display:inline-block;
+  position:relative;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:contain;
+  vertical-align:-11px;
+  margin-right:50px;
+}
+footer .wrap .copy .corp li:nth-child(1) a::before{
+  background-image:url(../img/pic1.svg);
+}
+footer .wrap .copy .corp li:nth-child(2) a::before{
+    background-image:url(../img/pic2.svg);
+}
+footer .wrap .copy .corp li:nth-child(3) a::before{
+    background-image:url(../img/pic3.svg);
+}
